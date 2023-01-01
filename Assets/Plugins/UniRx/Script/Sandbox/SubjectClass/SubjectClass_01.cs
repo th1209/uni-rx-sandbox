@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace Sandbox.SubjectClass
 {
+    // 参考:
+    // https://blog.okazuki.jp/entry/2015/03/23/203825
+
     public class SubjectClass_01 : MonoBehaviour
     {
         [ContextMenu(nameof(Subject))]

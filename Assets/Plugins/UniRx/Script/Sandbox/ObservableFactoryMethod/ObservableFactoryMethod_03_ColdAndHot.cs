@@ -9,6 +9,9 @@ using UnityEngine;
 
 namespace Sandbox.ObservableFactoryMethod
 {
+    // 参考:
+    // https://blog.okazuki.jp/entry/2015/03/23/203825
+
     // Observableには､ColdなものとHotなものとがある
     // Cold:
     //   複数回購読をした時に､個々のObserver毎に､独立した(別々の)値を発行する

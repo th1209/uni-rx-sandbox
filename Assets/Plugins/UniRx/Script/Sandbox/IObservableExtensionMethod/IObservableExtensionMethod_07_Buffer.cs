@@ -6,6 +6,9 @@ using UnityEngine;
 
 namespace Sandbox.IObservableExtensionMethod
 {
+    // 参考:
+    // https://blog.okazuki.jp/entry/2015/03/23/203825
+
     // Bufferメソッドは､元になるIObservable<T>から｢要素数｣｢時間｣の観点で値をまとめ､Observable<List<T>>に変換して返す.
     // ｢タイミング｣指定のパターンは､UniRxには存在しないようだ.
     // 

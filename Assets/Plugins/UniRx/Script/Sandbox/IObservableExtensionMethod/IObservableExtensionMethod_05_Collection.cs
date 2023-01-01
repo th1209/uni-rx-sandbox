@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace Sandbox.IObservableExtensionMethod
 {
+    // 参考:
+    // https://blog.okazuki.jp/entry/2015/03/23/203825
+
     // コレクションに関する拡張メソッド群.
     // いずれも､OnCompletedが発行されるまで値を貯めておいて､OnCompleted時点で変換した値を返すのが特徴
     // 以下はUniRxでは存在しない模様(Aggregateで大体何とかできるので､そんなに気にしなくて良い)

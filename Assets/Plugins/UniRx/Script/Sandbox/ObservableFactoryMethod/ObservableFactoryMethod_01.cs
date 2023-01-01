@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace Sandbox.ObservableFactoryMethod
 {
+    // 参考:
+    // https://blog.okazuki.jp/entry/2015/03/23/203825
+
     // Observableのファクトリメソッドの特徴:
     //     購読した時点で即実行される､OnCompleteも呼ばれて完了扱いに
     //     再度購読したら､また同じ処理が呼ばれる

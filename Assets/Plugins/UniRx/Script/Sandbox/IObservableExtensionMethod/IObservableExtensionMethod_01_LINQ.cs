@@ -5,6 +5,9 @@ using UnityEngine;
 
 namespace Sandbox.IObservableExtensionMethod
 {
+    // 参考:
+    // https://blog.okazuki.jp/entry/2015/03/23/203825
+
     public class IObservableExtensionMethod_01_LINQ : MonoBehaviour
     {
         [ContextMenu(nameof(LINQ))]

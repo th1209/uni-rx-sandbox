@@ -7,6 +7,9 @@ using UnityEngine;
 
 namespace Sandbox.ObservableFactoryMethod
 {
+    // 参考:
+    // https://blog.okazuki.jp/entry/2015/03/23/203825
+
     public class ObservableFactoryMethod_02_Timer : MonoBehaviour
     {
         [ContextMenu(nameof(Timer))]

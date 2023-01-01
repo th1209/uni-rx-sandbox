@@ -5,6 +5,9 @@ using UnityEngine;
 
 namespace Sandbox.IObservableComposition
 {
+    // 参考:
+    // https://blog.okazuki.jp/entry/2015/03/23/203825
+
     public class IObservableComposition_01 : MonoBehaviour
     {
         [ContextMenu(nameof(Merge))]
